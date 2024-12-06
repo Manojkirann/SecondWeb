@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.bg1{
+    background: url(images/page1.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+    height: auto;
+}
+
+nav .logo{
+    font-size: 25px;
+}
+
+.nav_center ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav_center ul li{
+    margin: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav_center ul li:hover{
+    transition: all 0.8s ease-in;
+    text-decoration: underline;
+    
+}
+
+.nav_end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_end li{
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.nav_end li:hover{
+    transition: all 0.8s ease-in;
+    text-decoration: underline;
+}
+
+.page1{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.page1 ul{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    max-width: 500px;
+    list-style: none;
+
+}
+.page1 ul h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.page1 ul button{
+    background-color:rgba(255, 255, 255, 0) ;
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.page1 ul button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s linear;
+}
+
+/***********************************************************/
+
+.page2{
+    background: url(images/page2.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.page2 ul{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    max-width: 450px;
+    list-style: none;
+
+}
+.page2 ul h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.page2 ul button{
+    background-color:rgba(255, 255, 255, 0) ;
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.page2 ul button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s linear;
+}
+
+/***********************************************************/
+
+.page3{
+    background: url(images/page3.jpg);
+    background-size: cover;
+    height:  800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.page3 ul{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    max-width: 450px;
+    list-style: none;
+
+}
+.page3 ul h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.page3 ul button{
+    background-color:rgba(255, 255, 255, 0) ;
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.page3 ul button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s linear;
+}
+
+/***********************************************************/
+
+.page4{
+    background: url(images/page4.jpg);
+    background-size: cover;
+    height:  800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.page4 ul{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    max-width: 450px;
+    list-style: none;
+
+}
+.page4 ul h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.page4 ul button{
+    background-color:rgba(255, 255, 255, 0) ;
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.page4 ul button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s linear;
+}
+
+/***********************************************************/
+
+.page5{
+    background: url(images/page5.jpg);
+    background-size: cover;
+    height:  800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.page5 ul{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    max-width: 450px;
+    list-style: none;
+
+}
+.page5 ul h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.page5 ul button{
+    background-color:rgba(255, 255, 255, 0) ;
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.page5 ul button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s linear;
+}
+/***********************************************************/
+
+.page6{
+    background: url(images/page6.jpg);
+    background-size: cover;
+    height:  800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.page6 ul{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    max-width: 450px;
+    list-style: none;
+
+}
+.page6 ul h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.page6 ul button{
+    background-color:rgba(255, 255, 255, 0) ;
+    height: 50px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.page6 ul button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.4s linear;
+}
+/***********************************************************/
+
+footer{
+    list-style: none;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+footer li{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
